@@ -4,9 +4,9 @@
   },
   "dependencies": {
     "axios": "^0.20.0"
-  }
-  "scripts:" {
-    "start:db": "json-servier -w db.json",
+  },
+  "scripts": {
+    "start:db": "json-server -w db.json",
     "start:parcel": "parcel index.html"
   }
 }
